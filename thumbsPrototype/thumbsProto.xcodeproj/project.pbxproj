@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284EAAA117467372002CEFCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284EAAA017467372002CEFCB /* UIKit.framework */; };
+		284EAAA317467372002CEFCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284EAAA217467372002CEFCB /* Foundation.framework */; };
+		284EAAA517467372002CEFCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284EAAA417467372002CEFCB /* CoreGraphics.framework */; };
+		284EAAAB17467372002CEFCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 284EAAA917467372002CEFCB /* InfoPlist.strings */; };
+		284EAAAD17467372002CEFCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EAAAC17467372002CEFCB /* main.m */; };
+		284EAAB117467372002CEFCB /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EAAB017467372002CEFCB /* APLAppDelegate.m */; };
+		284EAAB317467372002CEFCB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EAAB217467372002CEFCB /* Default.png */; };
+		284EAAB517467372002CEFCB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EAAB417467372002CEFCB /* Default@2x.png */; };
+		284EAAB717467372002CEFCB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EAAB617467372002CEFCB /* Default-568h@2x.png */; };
+		284EAABA17467372002CEFCB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284EAAB817467372002CEFCB /* MainStoryboard.storyboard */; };
+		284EAABD17467372002CEFCB /* APLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EAABC17467372002CEFCB /* APLViewController.m */; };
+		6A94C97E180337DC001978DA /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A94C97C180337DC001978DA /* OverlayView.xib */; };
+		6AA9C56317FF59DB006DA610 /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9C56217FF59DB006DA610 /* KTOneFingerRotationGestureRecognizer.m */; };
+		6AA9C56B17FF633B006DA610 /* bg_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA9C56417FF633B006DA610 /* bg_640x960.png */; };
+		6AA9C56C17FF633B006DA610 /* bg_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA9C56517FF633B006DA610 /* bg_640x1136.png */; };
+		6AA9C56E17FF633B006DA610 /* thumbRounder_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA9C56717FF633B006DA610 /* thumbRounder_58.png */; };
+		6AA9C56F17FF633B006DA610 /* thumbRounder_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA9C56817FF633B006DA610 /* thumbRounder_80.png */; };
+		6AA9C57017FF633B006DA610 /* thumbRounder_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA9C56917FF633B006DA610 /* thumbRounder_120.png */; };
+		6AD1B16417F34C6900BB8767 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD1B16317F34C6900BB8767 /* Images.xcassets */; };
+		6AD1B16617F3621C00BB8767 /* justThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD1B16517F3621C00BB8767 /* justThumb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		284EAA9D17467372002CEFCB /* ThumbsProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThumbsProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284EAAA017467372002CEFCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		284EAAA217467372002CEFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		284EAAA417467372002CEFCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		284EAAA817467372002CEFCB /* thumbsProto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "thumbsProto-Info.plist"; sourceTree = "<group>"; };
+		284EAAAA17467372002CEFCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		284EAAAC17467372002CEFCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		284EAAAE17467372002CEFCB /* thumbsProto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thumbsProto-Prefix.pch"; sourceTree = "<group>"; };
+		284EAAAF17467372002CEFCB /* APLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APLAppDelegate.h; sourceTree = "<group>"; };
+		284EAAB017467372002CEFCB /* APLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLAppDelegate.m; sourceTree = "<group>"; };
+		284EAAB217467372002CEFCB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		284EAAB417467372002CEFCB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		284EAAB617467372002CEFCB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		284EAAB917467372002CEFCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		284EAABB17467372002CEFCB /* APLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APLViewController.h; sourceTree = "<group>"; };
+		284EAABC17467372002CEFCB /* APLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLViewController.m; sourceTree = "<group>"; };
+		28A709B8174C02C5003E42E3 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		6A94C97D180337DC001978DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayView.xib; sourceTree = "<group>"; };
+		6AA9C56117FF59DB006DA610 /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		6AA9C56217FF59DB006DA610 /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		6AA9C56417FF633B006DA610 /* bg_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_640x960.png; path = ../../../../Desktop/thumbs/bg_640x960.png; sourceTree = "<group>"; };
+		6AA9C56517FF633B006DA610 /* bg_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_640x1136.png; path = ../../../../Desktop/thumbs/bg_640x1136.png; sourceTree = "<group>"; };
+		6AA9C56717FF633B006DA610 /* thumbRounder_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbRounder_58.png; path = ../../../../Desktop/thumbs/thumbRounder_58.png; sourceTree = "<group>"; };
+		6AA9C56817FF633B006DA610 /* thumbRounder_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbRounder_80.png; path = ../../../../Desktop/thumbs/thumbRounder_80.png; sourceTree = "<group>"; };
+		6AA9C56917FF633B006DA610 /* thumbRounder_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbRounder_120.png; path = ../../../../Desktop/thumbs/thumbRounder_120.png; sourceTree = "<group>"; };
+		6AD1B16317F34C6900BB8767 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6AD1B16517F3621C00BB8767 /* justThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = justThumb.png; path = ../../../../Desktop/justThumb.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284EAA9A17467372002CEFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284EAAA117467372002CEFCB /* UIKit.framework in Frameworks */,
+				284EAAA317467372002CEFCB /* Foundation.framework in Frameworks */,
+				284EAAA517467372002CEFCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284EAA9417467372002CEFCB = {
+			isa = PBXGroup;
+			children = (
+				28A709B8174C02C5003E42E3 /* ReadMe.txt */,
+				284EAAA617467372002CEFCB /* thumbsProto */,
+				284EAA9F17467372002CEFCB /* Frameworks */,
+				284EAA9E17467372002CEFCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		284EAA9E17467372002CEFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284EAA9D17467372002CEFCB /* ThumbsProto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284EAA9F17467372002CEFCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284EAAA017467372002CEFCB /* UIKit.framework */,
+				284EAAA217467372002CEFCB /* Foundation.framework */,
+				284EAAA417467372002CEFCB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		284EAAA617467372002CEFCB /* thumbsProto */ = {
+			isa = PBXGroup;
+			children = (
+				6A94C97C180337DC001978DA /* OverlayView.xib */,
+				6AA9C56117FF59DB006DA610 /* KTOneFingerRotationGestureRecognizer.h */,
+				6AA9C56217FF59DB006DA610 /* KTOneFingerRotationGestureRecognizer.m */,
+				284EAAB817467372002CEFCB /* MainStoryboard.storyboard */,
+				284EAABB17467372002CEFCB /* APLViewController.h */,
+				284EAABC17467372002CEFCB /* APLViewController.m */,
+				284EAAAF17467372002CEFCB /* APLAppDelegate.h */,
+				284EAAB017467372002CEFCB /* APLAppDelegate.m */,
+				6AD1B16317F34C6900BB8767 /* Images.xcassets */,
+				284EAAA717467372002CEFCB /* Supporting Files */,
+			);
+			name = thumbsProto;
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		284EAAA717467372002CEFCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AA9C56417FF633B006DA610 /* bg_640x960.png */,
+				6AA9C56517FF633B006DA610 /* bg_640x1136.png */,
+				6AA9C56717FF633B006DA610 /* thumbRounder_58.png */,
+				6AA9C56817FF633B006DA610 /* thumbRounder_80.png */,
+				6AA9C56917FF633B006DA610 /* thumbRounder_120.png */,
+				6AD1B16517F3621C00BB8767 /* justThumb.png */,
+				284EAAA817467372002CEFCB /* thumbsProto-Info.plist */,
+				284EAAA917467372002CEFCB /* InfoPlist.strings */,
+				284EAAAC17467372002CEFCB /* main.m */,
+				284EAAAE17467372002CEFCB /* thumbsProto-Prefix.pch */,
+				284EAAB217467372002CEFCB /* Default.png */,
+				284EAAB417467372002CEFCB /* Default@2x.png */,
+				284EAAB617467372002CEFCB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284EAA9C17467372002CEFCB /* ThumbsProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284EAAC017467372002CEFCB /* Build configuration list for PBXNativeTarget "ThumbsProto" */;
+			buildPhases = (
+				284EAA9917467372002CEFCB /* Sources */,
+				284EAA9A17467372002CEFCB /* Frameworks */,
+				284EAA9B17467372002CEFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThumbsProto;
+			productName = PhotoPicker;
+			productReference = 284EAA9D17467372002CEFCB /* ThumbsProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284EAA9517467372002CEFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					284EAA9C17467372002CEFCB = {
+						DevelopmentTeam = 546J668LN3;
+					};
+				};
+			};
+			buildConfigurationList = 284EAA9817467372002CEFCB /* Build configuration list for PBXProject "thumbsProto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 284EAA9417467372002CEFCB;
+			productRefGroup = 284EAA9E17467372002CEFCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284EAA9C17467372002CEFCB /* ThumbsProto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284EAA9B17467372002CEFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA9C56F17FF633B006DA610 /* thumbRounder_80.png in Resources */,
+				284EAAAB17467372002CEFCB /* InfoPlist.strings in Resources */,
+				6AA9C57017FF633B006DA610 /* thumbRounder_120.png in Resources */,
+				6AA9C56B17FF633B006DA610 /* bg_640x960.png in Resources */,
+				6AD1B16417F34C6900BB8767 /* Images.xcassets in Resources */,
+				284EAAB317467372002CEFCB /* Default.png in Resources */,
+				284EAAB517467372002CEFCB /* Default@2x.png in Resources */,
+				284EAAB717467372002CEFCB /* Default-568h@2x.png in Resources */,
+				6AA9C56C17FF633B006DA610 /* bg_640x1136.png in Resources */,
+				6AD1B16617F3621C00BB8767 /* justThumb.png in Resources */,
+				6A94C97E180337DC001978DA /* OverlayView.xib in Resources */,
+				6AA9C56E17FF633B006DA610 /* thumbRounder_58.png in Resources */,
+				284EAABA17467372002CEFCB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284EAA9917467372002CEFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA9C56317FF59DB006DA610 /* KTOneFingerRotationGestureRecognizer.m in Sources */,
+				284EAAAD17467372002CEFCB /* main.m in Sources */,
+				284EAAB117467372002CEFCB /* APLAppDelegate.m in Sources */,
+				284EAABD17467372002CEFCB /* APLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		284EAAA917467372002CEFCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284EAAAA17467372002CEFCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		284EAAB817467372002CEFCB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284EAAB917467372002CEFCB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A94C97C180337DC001978DA /* OverlayView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A94C97D180337DC001978DA /* en */,
+			);
+			name = OverlayView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		284EAABE17467372002CEFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		284EAABF17467372002CEFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		284EAAC117467372002CEFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoPicker/thumbsProto-Prefix.pch";
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				INFOPLIST_FILE = "PhotoPicker/thumbsProto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		284EAAC217467372002CEFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoPicker/thumbsProto-Prefix.pch";
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				INFOPLIST_FILE = "PhotoPicker/thumbsProto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284EAA9817467372002CEFCB /* Build configuration list for PBXProject "thumbsProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284EAABE17467372002CEFCB /* Debug */,
+				284EAABF17467372002CEFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		284EAAC017467372002CEFCB /* Build configuration list for PBXNativeTarget "ThumbsProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284EAAC117467372002CEFCB /* Debug */,
+				284EAAC217467372002CEFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284EAA9517467372002CEFCB /* Project object */;
+}

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A90931917FB6088002D0E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90931817FB6088002D0E62 /* Foundation.framework */; };
+		6A90931B17FB6088002D0E62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90931A17FB6088002D0E62 /* CoreGraphics.framework */; };
+		6A90931D17FB6088002D0E62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90931C17FB6088002D0E62 /* UIKit.framework */; };
+		6A90932317FB6088002D0E62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A90932117FB6088002D0E62 /* InfoPlist.strings */; };
+		6A90932517FB6088002D0E62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90932417FB6088002D0E62 /* main.m */; };
+		6A90932917FB6088002D0E62 /* ahaThumbAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90932817FB6088002D0E62 /* ahaThumbAppDelegate.m */; };
+		6A90932C17FB6088002D0E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A90932A17FB6088002D0E62 /* Main.storyboard */; };
+		6A90932F17FB6088002D0E62 /* ahaThumbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90932E17FB6088002D0E62 /* ahaThumbViewController.m */; };
+		6A90933117FB6088002D0E62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A90933017FB6088002D0E62 /* Images.xcassets */; };
+		6A90933817FB6088002D0E62 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90933717FB6088002D0E62 /* XCTest.framework */; };
+		6A90933917FB6088002D0E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90931817FB6088002D0E62 /* Foundation.framework */; };
+		6A90933A17FB6088002D0E62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90931C17FB6088002D0E62 /* UIKit.framework */; };
+		6A90934217FB6088002D0E62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A90934017FB6088002D0E62 /* InfoPlist.strings */; };
+		6A90934417FB6088002D0E62 /* ahaThumbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90934317FB6088002D0E62 /* ahaThumbTests.m */; };
+		6A90934E17FB60CD002D0E62 /* justThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A90934D17FB60CD002D0E62 /* justThumb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A90933B17FB6088002D0E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A90930D17FB6088002D0E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A90931417FB6088002D0E62;
+			remoteInfo = ahaThumb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A90931517FB6088002D0E62 /* ahaThumb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ahaThumb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A90931817FB6088002D0E62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A90931A17FB6088002D0E62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A90931C17FB6088002D0E62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A90932017FB6088002D0E62 /* ahaThumb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ahaThumb-Info.plist"; sourceTree = "<group>"; };
+		6A90932217FB6088002D0E62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A90932417FB6088002D0E62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A90932617FB6088002D0E62 /* ahaThumb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ahaThumb-Prefix.pch"; sourceTree = "<group>"; };
+		6A90932717FB6088002D0E62 /* ahaThumbAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ahaThumbAppDelegate.h; sourceTree = "<group>"; };
+		6A90932817FB6088002D0E62 /* ahaThumbAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ahaThumbAppDelegate.m; sourceTree = "<group>"; };
+		6A90932B17FB6088002D0E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A90932D17FB6088002D0E62 /* ahaThumbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ahaThumbViewController.h; sourceTree = "<group>"; };
+		6A90932E17FB6088002D0E62 /* ahaThumbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ahaThumbViewController.m; sourceTree = "<group>"; };
+		6A90933017FB6088002D0E62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A90933617FB6088002D0E62 /* ahaThumbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ahaThumbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A90933717FB6088002D0E62 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6A90933F17FB6088002D0E62 /* ahaThumbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ahaThumbTests-Info.plist"; sourceTree = "<group>"; };
+		6A90934117FB6088002D0E62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A90934317FB6088002D0E62 /* ahaThumbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ahaThumbTests.m; sourceTree = "<group>"; };
+		6A90934D17FB60CD002D0E62 /* justThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = justThumb.png; path = ../../../../Desktop/justThumb.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A90931217FB6088002D0E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A90931B17FB6088002D0E62 /* CoreGraphics.framework in Frameworks */,
+				6A90931D17FB6088002D0E62 /* UIKit.framework in Frameworks */,
+				6A90931917FB6088002D0E62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A90933317FB6088002D0E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A90933817FB6088002D0E62 /* XCTest.framework in Frameworks */,
+				6A90933A17FB6088002D0E62 /* UIKit.framework in Frameworks */,
+				6A90933917FB6088002D0E62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A90930C17FB6088002D0E62 = {
+			isa = PBXGroup;
+			children = (
+				6A90931E17FB6088002D0E62 /* ahaThumb */,
+				6A90933D17FB6088002D0E62 /* ahaThumbTests */,
+				6A90931717FB6088002D0E62 /* Frameworks */,
+				6A90931617FB6088002D0E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A90931617FB6088002D0E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A90931517FB6088002D0E62 /* ahaThumb.app */,
+				6A90933617FB6088002D0E62 /* ahaThumbTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A90931717FB6088002D0E62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A90931817FB6088002D0E62 /* Foundation.framework */,
+				6A90931A17FB6088002D0E62 /* CoreGraphics.framework */,
+				6A90931C17FB6088002D0E62 /* UIKit.framework */,
+				6A90933717FB6088002D0E62 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A90931E17FB6088002D0E62 /* ahaThumb */ = {
+			isa = PBXGroup;
+			children = (
+				6A90932717FB6088002D0E62 /* ahaThumbAppDelegate.h */,
+				6A90932817FB6088002D0E62 /* ahaThumbAppDelegate.m */,
+				6A90932A17FB6088002D0E62 /* Main.storyboard */,
+				6A90932D17FB6088002D0E62 /* ahaThumbViewController.h */,
+				6A90932E17FB6088002D0E62 /* ahaThumbViewController.m */,
+				6A90933017FB6088002D0E62 /* Images.xcassets */,
+				6A90931F17FB6088002D0E62 /* Supporting Files */,
+			);
+			path = ahaThumb;
+			sourceTree = "<group>";
+		};
+		6A90931F17FB6088002D0E62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A90934D17FB60CD002D0E62 /* justThumb.png */,
+				6A90932017FB6088002D0E62 /* ahaThumb-Info.plist */,
+				6A90932117FB6088002D0E62 /* InfoPlist.strings */,
+				6A90932417FB6088002D0E62 /* main.m */,
+				6A90932617FB6088002D0E62 /* ahaThumb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A90933D17FB6088002D0E62 /* ahaThumbTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A90934317FB6088002D0E62 /* ahaThumbTests.m */,
+				6A90933E17FB6088002D0E62 /* Supporting Files */,
+			);
+			path = ahaThumbTests;
+			sourceTree = "<group>";
+		};
+		6A90933E17FB6088002D0E62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A90933F17FB6088002D0E62 /* ahaThumbTests-Info.plist */,
+				6A90934017FB6088002D0E62 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A90931417FB6088002D0E62 /* ahaThumb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A90934717FB6088002D0E62 /* Build configuration list for PBXNativeTarget "ahaThumb" */;
+			buildPhases = (
+				6A90931117FB6088002D0E62 /* Sources */,
+				6A90931217FB6088002D0E62 /* Frameworks */,
+				6A90931317FB6088002D0E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ahaThumb;
+			productName = ahaThumb;
+			productReference = 6A90931517FB6088002D0E62 /* ahaThumb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A90933517FB6088002D0E62 /* ahaThumbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A90934A17FB6088002D0E62 /* Build configuration list for PBXNativeTarget "ahaThumbTests" */;
+			buildPhases = (
+				6A90933217FB6088002D0E62 /* Sources */,
+				6A90933317FB6088002D0E62 /* Frameworks */,
+				6A90933417FB6088002D0E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A90933C17FB6088002D0E62 /* PBXTargetDependency */,
+			);
+			name = ahaThumbTests;
+			productName = ahaThumbTests;
+			productReference = 6A90933617FB6088002D0E62 /* ahaThumbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A90930D17FB6088002D0E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ahaThumb;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vikash Mishra";
+				TargetAttributes = {
+					6A90933517FB6088002D0E62 = {
+						TestTargetID = 6A90931417FB6088002D0E62;
+					};
+				};
+			};
+			buildConfigurationList = 6A90931017FB6088002D0E62 /* Build configuration list for PBXProject "ahaThumb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A90930C17FB6088002D0E62;
+			productRefGroup = 6A90931617FB6088002D0E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A90931417FB6088002D0E62 /* ahaThumb */,
+				6A90933517FB6088002D0E62 /* ahaThumbTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A90931317FB6088002D0E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A90933117FB6088002D0E62 /* Images.xcassets in Resources */,
+				6A90932317FB6088002D0E62 /* InfoPlist.strings in Resources */,
+				6A90934E17FB60CD002D0E62 /* justThumb.png in Resources */,
+				6A90932C17FB6088002D0E62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A90933417FB6088002D0E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A90934217FB6088002D0E62 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A90931117FB6088002D0E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A90932917FB6088002D0E62 /* ahaThumbAppDelegate.m in Sources */,
+				6A90932517FB6088002D0E62 /* main.m in Sources */,
+				6A90932F17FB6088002D0E62 /* ahaThumbViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A90933217FB6088002D0E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A90934417FB6088002D0E62 /* ahaThumbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A90933C17FB6088002D0E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A90931417FB6088002D0E62 /* ahaThumb */;
+			targetProxy = 6A90933B17FB6088002D0E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A90932117FB6088002D0E62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A90932217FB6088002D0E62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A90932A17FB6088002D0E62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A90932B17FB6088002D0E62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A90934017FB6088002D0E62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A90934117FB6088002D0E62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A90934517FB6088002D0E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A90934617FB6088002D0E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A90934817FB6088002D0E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ahaThumb/ahaThumb-Prefix.pch";
+				INFOPLIST_FILE = "ahaThumb/ahaThumb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A90934917FB6088002D0E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ahaThumb/ahaThumb-Prefix.pch";
+				INFOPLIST_FILE = "ahaThumb/ahaThumb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A90934B17FB6088002D0E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ahaThumb.app/ahaThumb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ahaThumb/ahaThumb-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ahaThumbTests/ahaThumbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6A90934C17FB6088002D0E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ahaThumb.app/ahaThumb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ahaThumb/ahaThumb-Prefix.pch";
+				INFOPLIST_FILE = "ahaThumbTests/ahaThumbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A90931017FB6088002D0E62 /* Build configuration list for PBXProject "ahaThumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A90934517FB6088002D0E62 /* Debug */,
+				6A90934617FB6088002D0E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A90934717FB6088002D0E62 /* Build configuration list for PBXNativeTarget "ahaThumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A90934817FB6088002D0E62 /* Debug */,
+				6A90934917FB6088002D0E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A90934A17FB6088002D0E62 /* Build configuration list for PBXNativeTarget "ahaThumbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A90934B17FB6088002D0E62 /* Debug */,
+				6A90934C17FB6088002D0E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A90930D17FB6088002D0E62 /* Project object */;
+}
